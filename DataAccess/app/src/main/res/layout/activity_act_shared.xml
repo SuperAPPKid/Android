@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/viewGet"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#a2a2a2"/>
+
+    <EditText
+        android:id="@+id/viewSet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="32dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/set"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="set"
+        android:textSize="32dp" />
+        />
+    <Button
+        android:id="@+id/get"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="get"
+        android:textSize="32dp" />
+    />
+</LinearLayout>
